@@ -1,0 +1,37 @@
+{
+  "name": "stylelint-config-concentric",
+  "version": "1.0.0",
+  "description": "Concentric shareable config for stylelint",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "concentric"
+  ],
+  "author": "Danilo Bürger <info@danilobuerger.de>",
+  "license": "MIT",
+  "homepage": "https://github.com/danilobuerger/stylelint-config-concentric#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danilobuerger/stylelint-config-concentric.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danilobuerger/stylelint-config-concentric/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "stylelint-config-standard": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "stylelint": "^5.4.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^5.4.0"
+  },
+  "scripts": {
+    "lint": "eslint *.js"
+  }
+}
