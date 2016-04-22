@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-concentric",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Concentric shareable config for stylelint",
   "keywords": [
     "stylelint",
