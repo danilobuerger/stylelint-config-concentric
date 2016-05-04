@@ -1,6 +1,7 @@
 var config = require('stylelint-config-standard')
 
 config.rules['declaration-block-properties-order'] = [[
+  'composes',
   'display',
   'position',
   'top',
