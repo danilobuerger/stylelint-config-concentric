@@ -1,5 +1,10 @@
 var config = require('stylelint-config-standard')
 
+config.rules['selector-pseudo-class-no-unknown'] = [
+  true,
+  { ignorePseudoClasses: ['global'] }
+]
+
 config.rules['declaration-block-properties-order'] = [[
   'composes',
   'display',
