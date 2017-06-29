@@ -22,7 +22,7 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint-config-standard": "^13.0.0 || ^14.0.0 || ^15.0.0"
+    "stylelint-config-standard": "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
     "check-es3-syntax-cli": "^0.1.2",
