@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-concentric",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "Concentric shareable config for stylelint",
   "keywords": [
     "stylelint",
@@ -22,15 +22,15 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint-config-standard": "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0"
+    "stylelint-order": "^0.6.0"
   },
   "devDependencies": {
-    "check-es3-syntax-cli": "^0.1.2",
-    "eslint": "^3.2.0",
-    "stylelint": "^7.0.3"
+    "check-es3-syntax-cli": "^0.2.0",
+    "eslint": "^4.4.1",
+    "stylelint": "^8.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.0.3"
+    "stylelint": "^7.13.0 || ^8.0.0"
   },
   "scripts": {
     "lint": "eslint *.js && check-es3-syntax --kill --print *.js"
