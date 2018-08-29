@@ -22,7 +22,7 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint-order": "^0.6.0"
+    "stylelint-order": "^1.0.0"
   },
   "devDependencies": {
     "check-es3-syntax-cli": "^0.2.0",
